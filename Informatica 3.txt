@@ -215,27 +215,7 @@ www.urjc.es
 uah.es
 www.uah.es
 
-# ==========================================
-# OTROS SERVICIOS ESENCIALES
-# ==========================================
+# Bruno
+laingenieriaentusmanos.com
+appinventor.mit.edu
 
-# DNS y conectividad (ya incluidos en base)
-# archive.ubuntu.com
-# security.ubuntu.com
-
-# Google Drive para compartir archivos escolares
-# drive.google.com (ya incluido arriba)
-
-# ==========================================
-# NOTAS IMPORTANTES
-# ==========================================
-#
-# Este archivo es un EJEMPLO. Puedes:
-# - Añadir más URLs según necesidades
-# - Eliminar URLs que no sean necesarias
-# - Comentar URLs con # para deshabilitarlas temporalmente
-#
-# Recuerda: Las URLs base (anthropic.com, google.es, etc.)
-# ya están incluidas en el sistema y no necesitan estar aquí.
-#
-# ========================================================
