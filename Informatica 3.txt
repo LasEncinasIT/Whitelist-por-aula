@@ -9,6 +9,33 @@
 #
 # ========================================================
 
+# Búsqueda y servicios básicos
+google.es
+google.com
+
+# GitHub y servicios de desarrollo
+github.com
+
+# CDN comunes (para soporte universal)
+gstatic.com
+googleapis.com
+googleusercontent.com
+ggpht.com
+cloudflare.com
+cdnjs.cloudflare.com
+akamaihd.net
+akamaized.net
+cloudfront.net
+amazonaws.com
+
+# Educación Madrid
+nce.wedu.comunidad.madrid
+max.educa.madrid.org
+educa.madrid.org
+
+# Ubuntu
+ubuntu.com
+
 # ==========================================
 # EDUCAMADRID - PLATAFORMAS OFICIALES
 # ==========================================
@@ -26,9 +53,6 @@ mail.educa.madrid.org
 # Aulas virtuales y recursos
 raices.educa.madrid.org
 roble.pntic.mec.es
-
-# Portal cautivo (ya incluido en base, pero por claridad)
-nce.wedu.comunidad.madrid
 
 # ==========================================
 # COMUNIDAD DE MADRID - EDUCACIÓN
