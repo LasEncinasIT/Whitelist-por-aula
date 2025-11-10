@@ -9,6 +9,8 @@
 #
 # ========================================================
 
+canva.com
+
 # Búsqueda y servicios básicos
 google.es
 google.com
