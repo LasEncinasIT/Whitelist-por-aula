@@ -250,10 +250,26 @@ www.uah.es
 # Bruno
 # ==========================================
 
-laingenieriaentusmanos.com
 appinventor.mit.edu
 sketchup.com
 mycompiler.io
+
+# La ingeniería en tus manos
+
+laingenieriaentusmanos.com
+youtube.com
+youtu.be
+vimeo.com
+dailymotion.com
+trello.com
+autodesk.com
+tinkercad.com
+sketchup.com
+draw.io
+diagrams.net
+instructables.com
+thingiverse.com
+hackaday.com
 
 # Exploración ciberseguridad 4o ESO
 
