@@ -9,8 +9,6 @@
 #
 # ========================================================
 
-canva.com
-
 # Búsqueda y servicios básicos
 google.es
 google.com
@@ -198,6 +196,9 @@ www.office.com
 outlook.office.com
 onedrive.live.com
 
+canva.com
+genially.com
+
 # ==========================================
 # REDES SOCIALES EDUCATIVAS (OPCIONAL)
 # ==========================================
@@ -239,10 +240,13 @@ uah.es
 www.uah.es
 
 # ==========================================
-# PETICIONES POR PROFESOR
+# PETICIONES DE PROFESOR
 # ==========================================
 
+# ==========================================
 # Bruno
+# ==========================================
+
 laingenieriaentusmanos.com
 appinventor.mit.edu
 sketchup.com
