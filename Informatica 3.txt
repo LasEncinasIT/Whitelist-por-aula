@@ -13,6 +13,9 @@
 google.es
 google.com
 
+# Chatbots
+chatgpt.com
+
 # GitHub y servicios de desarrollo
 github.com
 
