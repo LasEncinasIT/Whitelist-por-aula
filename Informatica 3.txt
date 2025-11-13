@@ -30,6 +30,7 @@ akamaihd.net
 akamaized.net
 cloudfront.net
 amazonaws.com
+oaistatic.com
 
 # Educación Madrid
 nce.wedu.comunidad.madrid
