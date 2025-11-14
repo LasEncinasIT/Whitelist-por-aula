@@ -193,6 +193,7 @@ docs.google.com
 sheets.google.com
 slides.google.com
 classroom.google.com
+accounts.google.com
 
 # Microsoft Office Online
 office.com
