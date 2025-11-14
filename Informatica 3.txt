@@ -10,11 +10,13 @@
 # ========================================================
 
 # Búsqueda y servicios básicos
-google.es
-google.com
+# google.es
+# google.com
+duckduckgo.com
 
 # Chatbots
 chatgpt.com
+aistudio.google.com
 
 # GitHub y servicios de desarrollo
 github.com
@@ -101,8 +103,6 @@ en.wikipedia.org
 wikipedia.org
 
 # Google (búsquedas académicas)
-google.es
-www.google.es
 scholar.google.es
 scholar.google.com
 
@@ -168,7 +168,7 @@ www.desmos.com
 phet.colorado.edu
 
 # Programación y tecnología
-scratch.mit.edu
+# scratch.mit.edu
 code.org
 www.code.org
 
@@ -202,18 +202,6 @@ onedrive.live.com
 
 canva.com
 genially.com
-
-# ==========================================
-# REDES SOCIALES EDUCATIVAS (OPCIONAL)
-# ==========================================
-
-# YouTube (contenido educativo)
-# youtube.com
-# www.youtube.com
-# youtu.be
-
-# NOTA: Descomenta las anteriores si quieres permitir YouTube
-# Ten en cuenta que YouTube puede tener contenido no educativo
 
 # ==========================================
 # UNIVERSIDADES PÚBLICAS DE MADRID
