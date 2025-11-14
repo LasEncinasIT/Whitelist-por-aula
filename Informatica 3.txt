@@ -33,6 +33,8 @@ akamaized.net
 cloudfront.net
 amazonaws.com
 oaistatic.com
+ytimg.com
+googlevideo.com
 
 # Educación Madrid
 nce.wedu.comunidad.madrid
