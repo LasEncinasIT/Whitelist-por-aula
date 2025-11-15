@@ -89,6 +89,7 @@ ubuntu.com
 # INVESTIGACIÓN Y RECURSOS ACADÉMICOS
 # ==========================================
 wikipedia.org
+wikimedia.org
 scholar.google.es
 scholar.google.com
 rae.es
