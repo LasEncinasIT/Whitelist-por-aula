@@ -1,27 +1,37 @@
-#  
 # ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
+# Formato v3.4 con secciones
 # ========================================================
 #
-# Formato: Una URL por línea
-# Líneas que empiezan con # son comentarios
-# URLs sin http:// o https:// (solo el dominio)
+# Formato:
+# - ## WHITELIST = dominios permitidos (DNS-level)
+# - ## BLOCKED-SUBDOMAINS = subdominios bloqueados (DNS-level)
+# - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
+#
+# Emergency disable: descomentar la siguiente línea
+# DESACTIVADO
 #
 # ========================================================
 
-# Búsqueda y servicios básicos
-# google.es
-# google.com
+## WHITELIST
+# Dominios permitidos a nivel DNS
+# dnsmasq resolverá automáticamente todos los subdominios
+
+# ==========================================
+# BÚSQUEDA Y SERVICIOS BÁSICOS
+# ==========================================
 duckduckgo.com
 
-# Chatbots
+# Chatbots e IA
 chatgpt.com
 aistudio.google.com
 
 # GitHub y servicios de desarrollo
 github.com
 
-# CDN comunes (para soporte universal)
+# ==========================================
+# CDN COMUNES (para soporte universal)
+# ==========================================
 gstatic.com
 googleapis.com
 googleusercontent.com
@@ -33,226 +43,134 @@ akamaized.net
 cloudfront.net
 amazonaws.com
 oaistatic.com
-ytimg.com
-googlevideo.com
 
-# Educación Madrid
+# ==========================================
+# EDUCACIÓN MADRID - WEDU
+# ==========================================
 nce.wedu.comunidad.madrid
 max.educa.madrid.org
 educa.madrid.org
 
-# Ubuntu
-ubuntu.com
-
 # ==========================================
 # EDUCAMADRID - PLATAFORMAS OFICIALES
 # ==========================================
-
-# Portal principal EducaMadrid
-educa.madrid.org
-www.educa.madrid.org
 aulavirtual.educa.madrid.org
 moodle.educa.madrid.org
-
-# Correo y comunicaciones EducaMadrid
 correo.educa.madrid.org
 mail.educa.madrid.org
-
-# Aulas virtuales y recursos
 raices.educa.madrid.org
 roble.pntic.mec.es
 
 # ==========================================
 # COMUNIDAD DE MADRID - EDUCACIÓN
 # ==========================================
-
-# Consejería de Educación
 comunidad.madrid
-www.comunidad.madrid
 comunidadmadrid.es
-www.comunidadmadrid.es
-
-# Servicios educativos
 madrid.org
-www.madrid.org
-
-# Bibliotecas públicas Madrid
 bibliotecas.madrid.es
-comunidad.madrid/servicios/bibliotecas
 
 # ==========================================
 # MINISTERIO DE EDUCACIÓN - ESPAÑA
 # ==========================================
-
-# Portal del Ministerio
 educacion.gob.es
-www.educacion.gob.es
 sede.educacion.gob.es
-
-# Recursos educativos INTEF
 intef.es
-www.intef.es
 educalab.es
 procomun.intef.es
 
 # ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+ubuntu.com
+
+# ==========================================
 # INVESTIGACIÓN Y RECURSOS ACADÉMICOS
 # ==========================================
-
-# Wikipedia (español e inglés)
-es.wikipedia.org
-en.wikipedia.org
 wikipedia.org
-
-# Google (búsquedas académicas)
 scholar.google.es
 scholar.google.com
-
-# Diccionarios y recursos lingüísticos
 rae.es
-www.rae.es
 wordreference.com
-www.wordreference.com
-
-# Traductor
 translate.google.com
 translate.google.es
 
 # ==========================================
 # BIBLIOTECAS Y RECURSOS ACADÉMICOS
 # ==========================================
-
-# Biblioteca Nacional de España
 bne.es
-www.bne.es
 catalogo.bne.es
-
-# Proyecto Gutenberg (libros gratuitos)
 gutenberg.org
-www.gutenberg.org
-
-# Google Books
 books.google.es
 books.google.com
 
 # ==========================================
 # EDUCACIÓN ONLINE Y MOOCS
 # ==========================================
-
-# Khan Academy (español)
-es.khanacademy.org
 khanacademy.org
-
-# Coursera
 coursera.org
-www.coursera.org
-
-# edX
 edx.org
-www.edx.org
-
-# UNED (Universidad a distancia)
 uned.es
-www.uned.es
 portal.uned.es
 
 # ==========================================
 # RECURSOS EDUCATIVOS ESPECÍFICOS
 # ==========================================
-
 # Matemáticas
 geogebra.org
-www.geogebra.org
 desmos.com
-www.desmos.com
 
 # Ciencias
 phet.colorado.edu
 
 # Programación y tecnología
-# scratch.mit.edu
 code.org
-www.code.org
 
 # ==========================================
 # MEDIOS EDUCATIVOS Y DIVULGATIVOS
 # ==========================================
-
-# RTVE Educación
 rtve.es
-www.rtve.es
-
-# National Geographic (español)
 nationalgeographic.com.es
 
 # ==========================================
 # HERRAMIENTAS DE PRODUCTIVIDAD
 # ==========================================
-
-# Google Workspace (Drive, Docs, etc.)
+# Google Workspace
 drive.google.com
 docs.google.com
 sheets.google.com
 slides.google.com
 classroom.google.com
 accounts.google.com
-workspace.google.com
-googleusercontent.com
-ggpht.com
-googleapis.com
 
 # Microsoft Office Online
 office.com
-www.office.com
 outlook.office.com
 onedrive.live.com
+microsoft.com
 
+# Diseño y presentaciones
 canva.com
 genially.com
 
 # ==========================================
 # UNIVERSIDADES PÚBLICAS DE MADRID
 # ==========================================
-
-# Universidad Complutense de Madrid
 ucm.es
-www.ucm.es
-
-# Universidad Autónoma de Madrid
 uam.es
-www.uam.es
-
-# Universidad Carlos III
 uc3m.es
-www.uc3m.es
-
-# Universidad Politécnica de Madrid
 upm.es
-www.upm.es
-
-# Universidad Rey Juan Carlos
 urjc.es
-www.urjc.es
-
-# Universidad de Alcalá
 uah.es
-www.uah.es
 
 # ==========================================
-# PETICIONES DE PROFESOR
+# PETICIONES DE PROFESOR - Bruno
 # ==========================================
-
-# ==========================================
-# Bruno
-# ==========================================
-
 appinventor.mit.edu
 sketchup.com
 trimble.com
 mycompiler.io
 
 # La ingeniería en tus manos
-
 laingenieriaentusmanos.com
 youtube.com
 youtu.be
@@ -261,17 +179,13 @@ dailymotion.com
 trello.com
 autodesk.com
 tinkercad.com
-sketchup.com
 draw.io
 diagrams.net
 instructables.com
 thingiverse.com
 hackaday.com
 
-# Exploración ciberseguridad 4o ESO
-
-office.com
-microsoft.com
+# Exploración ciberseguridad 4º ESO
 incibe.es
 pantallasamigas.net
 xataka.com
@@ -280,3 +194,50 @@ pegi.info
 bde.es
 ocu.org
 policia.es
+
+## BLOCKED-SUBDOMAINS
+# Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
+# Útil para bloquear contenido específico incluso si dominio padre está permitido
+
+# Google Doodles (juegos interactivos)
+doodles.google.com
+doodles.google.es
+
+## BLOCKED-PATHS
+# Paths bloqueados en navegadores (Firefox + Chromium)
+# Soporta pattern matching con wildcards (*)
+# NO afecta curl, wget, apps - solo navegadores
+
+# ==========================================
+# CONTENIDO DE ENTRETENIMIENTO
+# ==========================================
+
+# YouTube - Bloquear contenido no educativo
+youtube.com/*shorts*
+youtube.com/*gaming*
+youtube.com/*live*
+youtube.com/feed/trending
+youtube.com/feed/subscriptions
+
+# Búsquedas de entretenimiento (en cualquier buscador)
+*/search?q=*fortnite*
+*/search?q=*minecraft*
+*/search?q=*videojuegos*
+*/search?q=*tiktok*
+
+# ==========================================
+# REDES SOCIALES Y DISTRACCIONES
+# ==========================================
+
+# Contenido de gaming genérico (en cualquier sitio)
+*/gaming/*
+*/games/*
+
+# ==========================================
+# GOOGLE - CONTENIDO ESPECÍFICO
+# ==========================================
+
+# Google Doodles (backup a nivel navegador)
+google.com/doodles
+google.es/doodles
+
