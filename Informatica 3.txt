@@ -21,6 +21,8 @@
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
 duckduckgo.com
+google.es
+google.com
 
 # Chatbots e IA
 chatgpt.com
