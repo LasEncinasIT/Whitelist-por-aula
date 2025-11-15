@@ -27,7 +27,7 @@ google.com
 # Chatbots e IA
 chatgpt.com
 aistudio.google.com
-antropic.com
+anthropic.com
 
 # GitHub y servicios de desarrollo
 github.com
