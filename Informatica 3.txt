@@ -227,6 +227,22 @@ youtube.com/feed/subscriptions
 */search?q=*minecraft*
 */search?q=*videojuegos*
 */search?q=*tiktok*
+*/search?q=snake*
+*/search?q=minesweeper*
+*/search?q=solitaire*
+*/search?q=tic+tac+toe*
+*/search?q=pac+man*
+*/search?q=atari+breakout*
+*/search?q=spin+a+dreidel*
+*/search?q=play+cricket*
+*/search?q=basketball+game*
+*/search?q=champion+island*
+*/search?q=juegos*
+*/search?q=games*
+
+g.co/doodle*
+
+doodles.google.com/*
 
 # ==========================================
 # REDES SOCIALES Y DISTRACCIONES
