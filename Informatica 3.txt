@@ -239,8 +239,7 @@ youtube.com/feed/subscriptions
 */search?q=champion+island*
 */search?q=juegos*
 */search?q=games*
-
-g.co/doodle*
+*doodle*
 
 doodles.google.com/*
 
