@@ -259,4 +259,5 @@ doodles.google.com/*
 # Google Doodles (backup a nivel navegador)
 google.com/doodles
 google.es/doodles
+google.com/logos
 
