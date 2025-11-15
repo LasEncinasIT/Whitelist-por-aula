@@ -227,7 +227,6 @@ youtube.com/feed/subscriptions
 */search?q=*fortnite*
 */search?q=*minecraft*
 */search?q=*videojuegos*
-*/search?q=*tiktok*
 */search?q=snake*
 */search?q=minesweeper*
 */search?q=solitaire*
