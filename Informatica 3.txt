@@ -46,6 +46,7 @@ akamaized.net
 cloudfront.net
 amazonaws.com
 oaistatic.com
+githubassets.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
