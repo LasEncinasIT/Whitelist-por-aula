@@ -9,7 +9,6 @@
 # - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
 #
 # Emergency disable: descomentar la siguiente línea
-DESACTIVADO
 #
 # ========================================================
 
