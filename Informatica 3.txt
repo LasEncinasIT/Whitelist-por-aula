@@ -1,4 +1,4 @@
-# desactivado 
+#  
 ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
@@ -182,6 +182,7 @@ youtu.be
 vimeo.com
 dailymotion.com
 trello.com
+atlassian.com
 autodesk.com
 tinkercad.com
 draw.io
