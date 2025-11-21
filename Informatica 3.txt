@@ -253,6 +253,7 @@ doodles.google.com/*
 # Contenido de gaming genérico (en cualquier sitio)
 */gaming/*
 */games/*
+*game*
 
 # ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
