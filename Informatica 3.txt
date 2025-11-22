@@ -15,6 +15,10 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
+# examen
+maven.org
+maven.apache.org
+
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
