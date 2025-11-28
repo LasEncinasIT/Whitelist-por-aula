@@ -227,38 +227,6 @@ youtube.com/*live*
 youtube.com/feed/trending
 youtube.com/feed/subscriptions
 
-# Búsquedas de entretenimiento (en cualquier buscador)
-*/search?q=*fortnite*
-*/search?q=*minecraft*
-*/search?q=*videojuegos*
-*/search?q=*snake*
-*/search?q=*minesweeper*
-*/search?q=*solitaire*
-*/search?q=*solitario*
-*/search?q=*tic+tac+toe*
-*/search?q=*pac+man*
-*/search?q=*pacman*
-*/search?q=*atari*breakout*
-*/search?q=*spin+a+dreidel*
-*/search?q=*cricket*
-*/search?q=*basketball*
-*/search?q=*baloncesto*
-*/search?q=*champion+island*
-*/search?q=*juegos*
-*/search?q=*games*
-*doodle*
-
-doodles.google.com/*
-
-# ==========================================
-# REDES SOCIALES Y DISTRACCIONES
-# ==========================================
-
-# Contenido de gaming genérico (en cualquier sitio)
-*/gaming/*
-*/games/*
-*game*
-
 # ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
 # ==========================================
