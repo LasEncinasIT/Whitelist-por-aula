@@ -205,8 +205,6 @@ policia.es
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
 # Útil para bloquear contenido específico incluso si dominio padre está permitido
 
-google.com/search*
-
 # Google Doodles (juegos interactivos)
 doodles.google.com
 doodles.google.es
@@ -215,6 +213,8 @@ doodles.google.es
 # Paths bloqueados en navegadores (Firefox + Chromium)
 # Soporta pattern matching con wildcards (*)
 # NO afecta curl, wget, apps - solo navegadores
+
+google.com/search*
 
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
