@@ -1,4 +1,4 @@
-# DESACTIVADO
+# 
 ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
