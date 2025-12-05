@@ -20,6 +20,7 @@
 # ==========================================
 duckduckgo.com
 google.es
+google.dev
 google.com
 
 # Chatbots e IA
