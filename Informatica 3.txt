@@ -174,7 +174,7 @@ sketchup.com
 trimble.com
 mycompiler.io
 un.org
-atl-pass.net
+public.atl-pass.net
 
 # La ingeniería en tus manos
 laingenieriaentusmanos.com
