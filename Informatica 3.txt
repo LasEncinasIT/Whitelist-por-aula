@@ -204,6 +204,13 @@ bde.es
 ocu.org
 policia.es
 
+# Videojuegos
+
+libresprite.github.io
+pixilart.com
+kickstarter.com
+unity.com
+
 ## BLOCKED-SUBDOMAINS
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
 # Útil para bloquear contenido específico incluso si dominio padre está permitido
