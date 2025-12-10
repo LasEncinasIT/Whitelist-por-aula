@@ -218,6 +218,7 @@ doodles.google.es
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
+*?q=2048*
 
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
@@ -229,6 +230,7 @@ youtube.com/*gaming*
 youtube.com/*live*
 youtube.com/feed/trending
 youtube.com/feed/subscriptions
+
 
 # ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
