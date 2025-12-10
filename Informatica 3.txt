@@ -225,7 +225,7 @@ doodles.google.es
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
-*?q=2048*
+*2048*
 
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
