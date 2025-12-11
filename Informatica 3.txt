@@ -22,6 +22,7 @@ duckduckgo.com
 google.es
 google.dev
 google.com
+netlify.com
 
 # Chatbots e IA
 chatgpt.com
