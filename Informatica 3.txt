@@ -1,4 +1,4 @@
-# 
+# DESACTIVADO
 ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
@@ -29,6 +29,7 @@ chatgpt.com
 aistudio.google.com
 anthropic.com
 notebooklm.google.com
+ai.studio
 
 # GitHub y servicios de desarrollo
 github.com
