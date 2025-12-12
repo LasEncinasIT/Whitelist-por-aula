@@ -48,6 +48,8 @@ cloudfront.net
 amazonaws.com
 oaistatic.com
 githubassets.com
+jsdelivr.com
+usercontent.goog
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
