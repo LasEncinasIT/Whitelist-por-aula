@@ -23,6 +23,7 @@ google.es
 google.dev
 google.com
 netlify.com
+anaconda.com
 
 # Chatbots e IA
 chatgpt.com
