@@ -1,4 +1,4 @@
-# desactivado 
+#  
 ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
@@ -207,6 +207,9 @@ pegi.info
 bde.es
 ocu.org
 policia.es
+
+#programación
+app.edublocks.org
 
 # Videojuegos
 
