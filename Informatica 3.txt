@@ -233,7 +233,8 @@ doodles.google.es
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
-*2048*
+2048
+file:/
 
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
