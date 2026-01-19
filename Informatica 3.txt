@@ -25,6 +25,7 @@ google.com
 netlify.com
 anaconda.com
 
+
 # Chatbots e IA
 chatgpt.com
 aistudio.google.com
@@ -210,7 +211,7 @@ ocu.org
 policia.es
 
 #programación
-app.edublocks.org
+edublocks.org
 
 # Videojuegos
 
