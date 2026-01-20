@@ -24,6 +24,7 @@ google.dev
 google.com
 netlify.com
 anaconda.com
+urldefense.com
 
 
 # Chatbots e IA
