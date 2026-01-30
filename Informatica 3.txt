@@ -55,6 +55,10 @@ oaistatic.com
 githubassets.com
 jsdelivr.com
 usercontent.goog
+jsdelivr.net
+esm.sh
+tailwindcss.com
+google.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
