@@ -59,6 +59,7 @@ jsdelivr.net
 esm.sh
 tailwindcss.com
 google.com
+googletagmanager.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
