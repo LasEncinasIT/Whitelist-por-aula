@@ -190,6 +190,7 @@ mycompiler.io
 un.org
 public.atl-pass.net
 diagrams.net
+vscode.dev
 
 # La ingeniería en tus manos
 laingenieriaentusmanos.com
