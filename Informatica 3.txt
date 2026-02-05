@@ -142,6 +142,7 @@ phet.colorado.edu
 
 # Programación y tecnología
 code.org
+ping.img
 
 # ==========================================
 # MEDIOS EDUCATIVOS Y DIVULGATIVOS
