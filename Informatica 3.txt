@@ -43,7 +43,6 @@ github.com
 # ==========================================
 gstatic.com
 googleapis.com
-googleusercontent.com
 ggpht.com
 cloudflare.com
 cdnjs.cloudflare.com
