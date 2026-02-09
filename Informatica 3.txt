@@ -238,6 +238,7 @@ pinterest.com
 # Google Doodles (juegos interactivos)
 doodles.google.com
 doodles.google.es
+sites.google.com
 
 ## BLOCKED-PATHS
 # Paths bloqueados en navegadores (Firefox + Chromium)
