@@ -247,7 +247,9 @@ sites.google.com
 
 google.com/search*
 2048
-file:/
+file:/*
+*snake*
+
 
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
