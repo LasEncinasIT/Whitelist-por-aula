@@ -1,5 +1,4 @@
-# 
-========================================================
+# ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
 # ========================================================
@@ -27,7 +26,6 @@ anaconda.com
 urldefense.com
 openai.com
 
-
 # Chatbots e IA
 chatgpt.com
 aistudio.google.com
@@ -37,6 +35,26 @@ ai.studio
 
 # GitHub y servicios de desarrollo
 github.com
+api.github.com
+
+# ==========================================
+# VISUAL STUDIO CODE Y COPILOT
+# ==========================================
+# Core y extensiones
+visualstudio.com
+vsassets.io
+vscode-cdn.net
+microsoft.com
+trafficmanager.net
+# Copilot y conectividad
+githubcopilot.com
+githubusercontent.com
+exp-tas.com
+# Validación de certificados
+digicert.com
+symcb.com
+symcd.com
+geotrust.com
 
 # ==========================================
 # CDN COMUNES (para soporte universal)
@@ -57,7 +75,6 @@ usercontent.goog
 jsdelivr.net
 esm.sh
 tailwindcss.com
-google.com
 googletagmanager.com
 
 # ==========================================
@@ -164,7 +181,6 @@ accounts.google.com
 office.com
 outlook.office.com
 onedrive.live.com
-microsoft.com
 
 # Diseño y presentaciones
 canva.com
@@ -223,12 +239,10 @@ policia.es
 edublocks.org
 
 # Videojuegos
-
 libresprite.github.io
 pixilart.com
 kickstarter.com
 unity.com
-
 pinterest.com
 
 ## BLOCKED-SUBDOMAINS
@@ -250,7 +264,6 @@ google.com/search*
 file:/*
 *snake*
 
-
 # ==========================================
 # CONTENIDO DE ENTRETENIMIENTO
 # ==========================================
@@ -261,7 +274,6 @@ youtube.com/*gaming*
 youtube.com/*live*
 youtube.com/feed/trending
 youtube.com/feed/subscriptions
-
 
 # ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
