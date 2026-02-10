@@ -260,6 +260,7 @@ sites.google.com
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
+doodle.com/fbx*
 2048
 file:/*
 *snake*
