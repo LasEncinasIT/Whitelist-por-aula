@@ -261,17 +261,6 @@ file:/*
 *snake*
 
 # ==========================================
-# CONTENIDO DE ENTRETENIMIENTO
-# ==========================================
-
-# YouTube - Bloquear contenido no educativo
-youtube.com/*shorts*
-youtube.com/*gaming*
-youtube.com/*live*
-youtube.com/feed/trending
-youtube.com/feed/subscriptions
-
-# ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
 # ==========================================
 
