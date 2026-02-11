@@ -209,11 +209,6 @@ diagrams.net
 vscode.dev
 
 # La ingeniería en tus manos
-laingenieriaentusmanos.com
-youtube.com
-youtu.be
-vimeo.com
-dailymotion.com
 trello.com
 atlassian.com
 autodesk.com
@@ -260,7 +255,7 @@ sites.google.com
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
-doodle.com/fbx*
+goodle.com/fbx*
 2048
 file:/*
 *snake*
