@@ -256,7 +256,7 @@ sites.google.com
 # NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
-goodle.com/fbx*
+google.com/fbx*
 2048
 file:/*
 *snake*
