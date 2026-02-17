@@ -15,6 +15,10 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
+# Examen DAM2
+gradle.org
+maven.org
+
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
