@@ -181,6 +181,7 @@ sheets.google.com
 slides.google.com
 classroom.google.com
 accounts.google.com
+mail-attachment.googleusercontent.com
 
 # Microsoft Office Online
 office.com
