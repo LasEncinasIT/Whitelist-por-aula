@@ -82,6 +82,7 @@ esm.sh
 tailwindcss.com
 googletagmanager.com
 oiausercontent.com
+client6.google.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
