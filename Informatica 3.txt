@@ -1,280 +1,64 @@
-# 
 # ========================================================
-# WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
-# Formato v3.4 con secciones
-# ========================================================
-#
-# Formato:
-# - ## WHITELIST = dominios permitidos (DNS-level)
-# - ## BLOCKED-SUBDOMAINS = subdominios bloqueados (DNS-level)
-# - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
-#
+# WHITELIST MÍNIMA EXAMEN DAM2 (VS CODE + GRADLE)
+# Sin Copilot - Sin IA - Sin Navegación General
 # ========================================================
 
 ## WHITELIST
-# Dominios permitidos a nivel DNS
-# dnsmasq resolverá automáticamente todos los subdominios
 
-# Examen DAM2
+# Recursos específicos del Examen DAM2
 gradle.org
 apache.org
 
-# ==========================================
-# BÚSQUEDA Y SERVICIOS BÁSICOS
-# ==========================================
-duckduckgo.com
-google.es
-google.dev
-google.com
-netlify.com
-anaconda.com
-urldefense.com
-openai.com
-
-# Chatbots e IA
-chatgpt.com
-aistudio.google.com
-anthropic.com
-notebooklm.google.com
-ai.studio
-
-# GitHub y servicios de desarrollo
-github.com
-api.github.com
-
-# ==========================================
-# VISUAL STUDIO CODE Y COPILOT
-# ==========================================
-# Core y extensiones
+# Visual Studio Code: Core y Marketplace
+# (Permite descargar extensiones y funcionamiento del editor)
 visualstudio.com
 vsassets.io
 vscode-cdn.net
 microsoft.com
 trafficmanager.net
-# Copilot y conectividad
-githubcopilot.com
-githubusercontent.com
-exp-tas.com
-# Validación de certificados
+
+
+# Validación de Certificados y Seguridad SSL
+# (Si se bloquean, las conexiones HTTPS de VS Code fallarán)
 digicert.com
 symcb.com
 symcd.com
 geotrust.com
 
-# ==========================================
-# CDN COMUNES (para soporte universal)
-# ==========================================
+# CDNs e Infraestructura Básica
+# (Necesario para el renderizado de VS Code y descarga de librerías)
 gstatic.com
 googleapis.com
-ggpht.com
-cloudflare.com
-cdnjs.cloudflare.com
 akamaihd.net
 akamaized.net
 cloudfront.net
 amazonaws.com
-oaistatic.com
-githubassets.com
-jsdelivr.com
-usercontent.goog
-jsdelivr.net
-esm.sh
-tailwindcss.com
-googletagmanager.com
-oaiusercontent.com
-client6.google.com
 
-# ==========================================
-# EDUCACIÓN MADRID - WEDU
-# ==========================================
-nce.wedu.comunidad.madrid
-max.educa.madrid.org
+# Plataformas Oficiales (Comunidad de Madrid)
 educa.madrid.org
-
-# ==========================================
-# EDUCAMADRID - PLATAFORMAS OFICIALES
-# ==========================================
-aulavirtual.educa.madrid.org
-moodle.educa.madrid.org
-correo.educa.madrid.org
-mail.educa.madrid.org
-raices.educa.madrid.org
-roble.pntic.mec.es
-
-# ==========================================
-# COMUNIDAD DE MADRID - EDUCACIÓN
-# ==========================================
-comunidad.madrid
-comunidadmadrid.es
 madrid.org
-bibliotecas.madrid.es
 
-# ==========================================
-# MINISTERIO DE EDUCACIÓN - ESPAÑA
-# ==========================================
-educacion.gob.es
-sede.educacion.gob.es
-intef.es
-educalab.es
-procomun.intef.es
-
-# ==========================================
-# SISTEMA OPERATIVO
-# ==========================================
+# Sistema Operativo (Actualizaciones de seguridad críticas)
 ubuntu.com
 
-# ==========================================
-# INVESTIGACIÓN Y RECURSOS ACADÉMICOS
-# ==========================================
-wikipedia.org
-wikimedia.org
-scholar.google.es
-scholar.google.com
-rae.es
-wordreference.com
-translate.google.com
-translate.google.es
-
-# ==========================================
-# BIBLIOTECAS Y RECURSOS ACADÉMICOS
-# ==========================================
-bne.es
-catalogo.bne.es
-gutenberg.org
-books.google.es
-books.google.com
-
-# ==========================================
-# EDUCACIÓN ONLINE Y MOOCS
-# ==========================================
-khanacademy.org
-coursera.org
-edx.org
-uned.es
-portal.uned.es
-
-# ==========================================
-# RECURSOS EDUCATIVOS ESPECÍFICOS
-# ==========================================
-# Matemáticas
-geogebra.org
-desmos.com
-
-# Ciencias
-phet.colorado.edu
-
-# Programación y tecnología
-code.org
-ping.img
-
-# ==========================================
-# MEDIOS EDUCATIVOS Y DIVULGATIVOS
-# ==========================================
-rtve.es
-nationalgeographic.com.es
-maldita.es
-
-# ==========================================
-# HERRAMIENTAS DE PRODUCTIVIDAD
-# ==========================================
-# Google Workspace
-drive.google.com
-docs.google.com
-sheets.google.com
-slides.google.com
-classroom.google.com
-accounts.google.com
-mail-attachment.googleusercontent.com
-
-# Microsoft Office Online
-office.com
-outlook.office.com
-onedrive.live.com
-
-# Diseño y presentaciones
-canva.com
-genially.com
-
-# ==========================================
-# UNIVERSIDADES PÚBLICAS DE MADRID
-# ==========================================
-ucm.es
-uam.es
-uc3m.es
-upm.es
-urjc.es
-uah.es
-
-# ==========================================
-# PETICIONES DE PROFESOR - Bruno
-# ==========================================
-# appinventor.mit.edu
-sketchup.com
-trimble.com
-mycompiler.io
-un.org
-public.atl-pass.net
-diagrams.net
-vscode.dev
-
-# La ingeniería en tus manos
-trello.com
-atlassian.com
-autodesk.com
-tinkercad.com
-draw.io
-diagrams.net
-instructables.com
-thingiverse.com
-hackaday.com
-educacionplastica.net
-
-# Exploración ciberseguridad 4º ESO
-incibe.es
-pantallasamigas.net
-xataka.com
-aepd.es
-pegi.info
-bde.es
-ocu.org
-policia.es
-
-#programación
-edublocks.org
-
-# Videojuegos
-libresprite.github.io
-pixilart.com
-kickstarter.com
-unity.com
-pinterest.com
+# ========================================================
 
 ## BLOCKED-SUBDOMAINS
-# Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
-# Útil para bloquear contenido específico incluso si dominio padre está permitido
+# Bloqueo específico para anular Copilot incluso si se intenta usar
 
-# Google Doodles (juegos interactivos)
-doodles.google.com
-doodles.google.es
-sites.google.com
+# Bloqueo de telemetría y modelos de Copilot
+copilot-proxy.githubusercontent.com
+api.github.com
+githubcopilot.com
+# Bloqueo de IA genérica (por si intentan usar la web)
+chatgpt.com
+openai.com
+aistudio.google.com
+anthropic.com
 
 ## BLOCKED-PATHS
-# Paths bloqueados en navegadores (Firefox + Chromium)
-# Soporta pattern matching con wildcards (*)
-# NO afecta curl, wget, apps - solo navegadores
-
+# Bloqueos en navegador
 google.com/search*
-google.com/fbx*
-2048
+google.es/search*
+*chatgpt*
 file:/*
-*snake*
-
-# ==========================================
-# GOOGLE - CONTENIDO ESPECÍFICO
-# ==========================================
-
-# Google Doodles (backup a nivel navegador)
-google.com/doodles
-google.es/doodles
-google.com/logos
-sites.google.com/site/populardoodlegames
