@@ -17,6 +17,8 @@ vscode-cdn.net
 microsoft.com
 trafficmanager.net
 
+madrid.org
+
 
 # Validación de Certificados y Seguridad SSL
 # (Si se bloquean, las conexiones HTTPS de VS Code fallarán)
