@@ -172,6 +172,7 @@ ping.img
 # ==========================================
 rtve.es
 nationalgeographic.com.es
+maldita.es
 
 # ==========================================
 # HERRAMIENTAS DE PRODUCTIVIDAD
