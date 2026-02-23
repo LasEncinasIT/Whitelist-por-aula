@@ -81,7 +81,7 @@ jsdelivr.net
 esm.sh
 tailwindcss.com
 googletagmanager.com
-oiausercontent.com
+oaiusercontent.com
 client6.google.com
 
 # ==========================================
