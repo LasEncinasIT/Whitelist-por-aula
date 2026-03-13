@@ -1,4 +1,4 @@
-# 
+# desactivado
 # ========================================================
 # WHITELIST FILTRADA - EXAMEN 1º BACHILLERATO
 # (Se han eliminado buscadores, IAs y traductores)
