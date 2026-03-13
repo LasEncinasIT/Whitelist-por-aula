@@ -1,68 +1,27 @@
 # desactivado
 # ========================================================
-# WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
-# Formato v3.4 con secciones
-# ========================================================
-#
-# Formato:
-# - ## WHITELIST = dominios permitidos (DNS-level)
-# - ## BLOCKED-SUBDOMAINS = subdominios bloqueados (DNS-level)
-# - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
-#
+# WHITELIST FILTRADA - EXAMEN 1º BACHILLERATO
+# (Se han eliminado buscadores, IAs y traductores)
 # ========================================================
 
 ## WHITELIST
-# Dominios permitidos a nivel DNS
-# dnsmasq resolverá automáticamente todos los subdominios
-
-# Examen DAM2
-gradle.org
-apache.org
 
 # ==========================================
-# BÚSQUEDA Y SERVICIOS BÁSICOS
+# SERVICIOS DE INFRAESTRUCTURA (Sin búsqueda)
 # ==========================================
-duckduckgo.com
-google.es
-google.dev
-google.com
+# Nota: Se han eliminado Google Search y DuckDuckGo
 netlify.com
 anaconda.com
 urldefense.com
-openai.com
 
-# Chatbots e IA
-chatgpt.com
-aistudio.google.com
-anthropic.com
-notebooklm.google.com
-ai.studio
-
-# GitHub y servicios de desarrollo
+# GitHub (Solo para entrega/repositorios específicos)
+# Nota: Si no usan GitHub para el examen, se recomienda bloquearlo también
 github.com
 api.github.com
 
-# ==========================================
-# VISUAL STUDIO CODE Y COPILOT
-# ==========================================
-# Core y extensiones
-visualstudio.com
-vsassets.io
-vscode-cdn.net
-microsoft.com
-trafficmanager.net
-# Copilot y conectividad
-githubcopilot.com
-githubusercontent.com
-exp-tas.com
-# Validación de certificados
-digicert.com
-symcb.com
-symcd.com
-geotrust.com
 
 # ==========================================
-# CDN COMUNES (para soporte universal)
+# CDN Y SOPORTE (Necesarios para carga de webs)
 # ==========================================
 gstatic.com
 googleapis.com
@@ -73,7 +32,6 @@ akamaihd.net
 akamaized.net
 cloudfront.net
 amazonaws.com
-oaistatic.com
 githubassets.com
 jsdelivr.com
 usercontent.goog
@@ -81,21 +39,14 @@ jsdelivr.net
 esm.sh
 tailwindcss.com
 googletagmanager.com
-oaiusercontent.com
 client6.google.com
-docs.google.com
-play.google.com
 
 # ==========================================
-# EDUCACIÓN MADRID - WEDU
+# EDUCACIÓN MADRID - WEDU / EDUCAMADRID
 # ==========================================
 nce.wedu.comunidad.madrid
 max.educa.madrid.org
 educa.madrid.org
-
-# ==========================================
-# EDUCAMADRID - PLATAFORMAS OFICIALES
-# ==========================================
 aulavirtual.educa.madrid.org
 moodle.educa.madrid.org
 correo.educa.madrid.org
@@ -104,16 +55,12 @@ raices.educa.madrid.org
 roble.pntic.mec.es
 
 # ==========================================
-# COMUNIDAD DE MADRID - EDUCACIÓN
+# INSTITUCIONES OFICIALES
 # ==========================================
 comunidad.madrid
 comunidadmadrid.es
 madrid.org
 bibliotecas.madrid.es
-
-# ==========================================
-# MINISTERIO DE EDUCACIÓN - ESPAÑA
-# ==========================================
 educacion.gob.es
 sede.educacion.gob.es
 intef.es
@@ -125,131 +72,7 @@ procomun.intef.es
 # ==========================================
 ubuntu.com
 
-# ==========================================
-# INVESTIGACIÓN Y RECURSOS ACADÉMICOS
-# ==========================================
-wikipedia.org
-wikimedia.org
-scholar.google.es
-scholar.google.com
-rae.es
-wordreference.com
-translate.google.com
-translate.google.es
 
-# ==========================================
-# BIBLIOTECAS Y RECURSOS ACADÉMICOS
-# ==========================================
-bne.es
-catalogo.bne.es
-gutenberg.org
-books.google.es
-books.google.com
-
-# ==========================================
-# EDUCACIÓN ONLINE Y MOOCS
-# ==========================================
-khanacademy.org
-coursera.org
-edx.org
-uned.es
-portal.uned.es
-
-# ==========================================
-# RECURSOS EDUCATIVOS ESPECÍFICOS
-# ==========================================
-# Matemáticas
-geogebra.org
-desmos.com
-
-# Ciencias
-phet.colorado.edu
-
-# Programación y tecnología
-code.org
-ping.img
-
-# ==========================================
-# MEDIOS EDUCATIVOS Y DIVULGATIVOS
-# ==========================================
-rtve.es
-nationalgeographic.com.es
-maldita.es
-
-# ==========================================
-# HERRAMIENTAS DE PRODUCTIVIDAD
-# ==========================================
-# Google Workspace
-drive.google.com
-docs.google.com
-sheets.google.com
-slides.google.com
-classroom.google.com
-accounts.google.com
-mail-attachment.googleusercontent.com
-
-# Microsoft Office Online
-office.com
-outlook.office.com
-onedrive.live.com
-
-# Diseño y presentaciones
-canva.com
-genially.com
-
-# ==========================================
-# UNIVERSIDADES PÚBLICAS DE MADRID
-# ==========================================
-ucm.es
-uam.es
-uc3m.es
-upm.es
-urjc.es
-uah.es
-
-# ==========================================
-# PETICIONES DE PROFESOR - Bruno
-# ==========================================
-# appinventor.mit.edu
-sketchup.com
-trimble.com
-mycompiler.io
-un.org
-public.atl-pass.net
-diagrams.net
-vscode.dev
-
-# La ingeniería en tus manos
-trello.com
-atlassian.com
-autodesk.com
-tinkercad.com
-draw.io
-diagrams.net
-instructables.com
-thingiverse.com
-hackaday.com
-educacionplastica.net
-
-# Exploración ciberseguridad 4º ESO
-incibe.es
-pantallasamigas.net
-xataka.com
-aepd.es
-pegi.info
-bde.es
-ocu.org
-policia.es
-
-#programación
-edublocks.org
-
-# Videojuegos
-libresprite.github.io
-pixilart.com
-kickstarter.com
-unity.com
-pinterest.com
 
 ## BLOCKED-SUBDOMAINS
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
