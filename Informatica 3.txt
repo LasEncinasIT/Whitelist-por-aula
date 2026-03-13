@@ -72,8 +72,6 @@ procomun.intef.es
 # ==========================================
 ubuntu.com
 
-
-
 ## BLOCKED-SUBDOMAINS
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
 # Útil para bloquear contenido específico incluso si dominio padre está permitido
