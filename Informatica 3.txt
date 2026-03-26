@@ -32,11 +32,11 @@ urldefense.com
 openai.com
 
 # Chatbots e IA
-# chatgpt.com
-# aistudio.google.com
-# anthropic.com
-# notebooklm.google.com
-# ai.studio
+chatgpt.com
+aistudio.google.com
+anthropic.com
+notebooklm.google.com
+ai.studio
 
 # GitHub y servicios de desarrollo
 github.com
