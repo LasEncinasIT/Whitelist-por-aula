@@ -222,6 +222,7 @@ public.atl-pass.net
 diagrams.net
 vscode.dev
 blooket.com
+apple.com
 
 # La ingeniería en tus manos
 trello.com
