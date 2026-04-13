@@ -64,6 +64,7 @@ geotrust.com
 # ==========================================
 # CDN COMUNES (para soporte universal)
 # ==========================================
+withgoogle.com
 gstatic.com
 googleapis.com
 ggpht.com
@@ -190,6 +191,7 @@ slides.google.com
 classroom.google.com
 accounts.google.com
 mail-attachment.googleusercontent.com
+lh7-rt.googleusercontent.com
 
 # Microsoft Office Online
 office.com
