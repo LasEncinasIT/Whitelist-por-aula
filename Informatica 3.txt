@@ -60,6 +60,8 @@ digicert.com
 symcb.com
 symcd.com
 geotrust.com
+developer.mozilla.org
+web.dev
 
 # ==========================================
 # CDN COMUNES (para soporte universal)
