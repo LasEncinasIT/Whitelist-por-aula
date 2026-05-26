@@ -19,6 +19,8 @@
 gradle.org
 apache.org
 
+makecode.com
+
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
