@@ -23,6 +23,9 @@ repo1.maven.org
 repo.maven.apache.org
 maven.org
 
+google.es
+google.com
+
 # ==========================================
 # VISUAL STUDIO CODE (Core y Certificados)
 # ==========================================
