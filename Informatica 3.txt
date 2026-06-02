@@ -261,6 +261,7 @@ pixilart.com
 kickstarter.com
 unity.com
 pinterest.com
+makecode.com
 
 ## BLOCKED-SUBDOMAINS
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
