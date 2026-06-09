@@ -17,7 +17,7 @@
 # ==========================================
 # EDUCAMADRID - AULA VIRTUAL Y LOGIN
 # ==========================================
-educa.madrid.org
+madrid.org
 aulavirtual.educa.madrid.org
 moodle.educa.madrid.org
 cas.educa.madrid.org
