@@ -1,41 +1,42 @@
-# desactivado
 # ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
-# Formato v3.4 con secciones - VERSIÓN MODO EXAMEN
+# Formato v3.5 con secciones - MODO RESTRINGIDO
 # ========================================================
 #
-# Formato:
-# - ## WHITELIST = dominios permitidos (DNS-level)
-# - ## BLOCKED-SUBDOMAINS = subdominios bloqueados (DNS-level)
-# - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
+# Criterio:
+# - Solo servicios necesarios de forma habitual.
+# - Herramientas didácticas específicas se activan temporalmente.
+# - Se evitan plataformas con contenido generado por usuarios,
+#   feeds, juegos, galerías, proyectos o navegación recreativa.
+# - Se reducen dominios de hosting/CDN genéricos cuando no son
+#   imprescindibles.
 #
 # ========================================================
 
 ## WHITELIST
-# Dominios permitidos a nivel DNS
-# dnsmasq resolverá automáticamente todos los subdominios
 
-# Examen DAM2
+# ==========================================
+# EXAMEN DAM2
+# ==========================================
 gradle.org
 apache.org
 
 # ==========================================
-# BÚSQUEDA Y SERVICIOS BÁSICOS
+# SERVICIOS BÁSICOS
 # ==========================================
-netlify.com
 anaconda.com
 urldefense.com
 
 # ==========================================
 # VISUAL STUDIO CODE Y EXTENSIONES BÁSICAS
 # ==========================================
-# Core y extensiones (Sin Copilot ni repositorios raw)
 visualstudio.com
 vsassets.io
 vscode-cdn.net
 microsoft.com
 trafficmanager.net
-# Validación de certificados y docs
+
+# Validación de certificados y documentación
 digicert.com
 symcb.com
 symcd.com
@@ -44,25 +45,19 @@ developer.mozilla.org
 web.dev
 
 # ==========================================
-# CDN COMUNES (para soporte universal)
+# CDN / DEPENDENCIAS TÉCNICAS
+# Mantener solo los realmente necesarios
 # ==========================================
 withgoogle.com
 gstatic.com
 googleapis.com
 ggpht.com
-cloudflare.com
 cdnjs.cloudflare.com
-akamaihd.net
-akamaized.net
-cloudfront.net
-amazonaws.com
 githubassets.com
 jsdelivr.com
-usercontent.goog
 jsdelivr.net
 esm.sh
 tailwindcss.com
-googletagmanager.com
 client6.google.com
 play.google.com
 lh7-us.googleusercontent.com
@@ -107,7 +102,7 @@ procomun.intef.es
 ubuntu.com
 
 # ==========================================
-# INVESTIGACIÓN Y RECURSOS ACADÉMICOS
+# LENGUA Y REFERENCIA
 # ==========================================
 rae.es
 wordreference.com
@@ -120,39 +115,17 @@ catalogo.bne.es
 gutenberg.org
 
 # ==========================================
-# EDUCACIÓN ONLINE Y MOOCS
+# EDUCACIÓN SUPERIOR
 # ==========================================
 uned.es
 portal.uned.es
 
 # ==========================================
-# RECURSOS EDUCATIVOS ESPECÍFICOS
-# ==========================================
-# Matemáticas
-geogebra.org
-desmos.com
-
-# Ciencias
-phet.colorado.edu
-
-# Programación y tecnología (Compiladores online bloqueados)
-code.org
-userpxt.io
-ping.img
-
-# ==========================================
-# MEDIOS EDUCATIVOS Y DIVULGATIVOS
+# MEDIOS Y DIVULGACIÓN
 # ==========================================
 rtve.es
 nationalgeographic.com.es
 maldita.es
-
-# ==========================================
-# HERRAMIENTAS DE PRODUCTIVIDAD
-# ==========================================
-# Diseño y presentaciones
-canva.com
-genially.com
 
 # ==========================================
 # UNIVERSIDADES PÚBLICAS DE MADRID
@@ -165,59 +138,38 @@ urjc.es
 uah.es
 
 # ==========================================
-# PETICIONES DE PROFESOR - Bruno
+# PETICIONES ESPECÍFICAS DE PROFESOR
+# Mantener solo mientras sean necesarias
 # ==========================================
-sketchup.com
-trimble.com
 un.org
 public.atl-pass.net
 diagrams.net
-blooket.com
+draw.io
 apple.com
 
-# La ingeniería en tus manos
-trello.com
-atlassian.com
-autodesk.com
-tinkercad.com
-draw.io
-diagrams.net
-instructables.com
-thingiverse.com
-hackaday.com
-educacionplastica.net
-
-# Exploración ciberseguridad 4º ESO
+# ==========================================
+# RECURSOS DE CIBERSEGURIDAD
+# ==========================================
 incibe.es
 pantallasamigas.net
-xataka.com
 aepd.es
 pegi.info
 bde.es
 ocu.org
 policia.es
 
-#programación
-edublocks.org
-
-# Videojuegos
-libresprite.github.io
-pixilart.com
-kickstarter.com
-unity.com
-pinterest.com
-makecode.com
 
 ## BLOCKED-SUBDOMAINS
-# Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
 
-# Google Doodles (juegos interactivos)
+# ==========================================
+# GOOGLE
+# ==========================================
 doodles.google.com
 doodles.google.es
 sites.google.com
 
+
 ## BLOCKED-PATHS
-# Paths bloqueados en navegadores (Firefox + Chromium)
 
 google.com/search*
 google.com/fbx*
@@ -228,9 +180,101 @@ file:/*
 # ==========================================
 # GOOGLE - CONTENIDO ESPECÍFICO
 # ==========================================
-
-# Google Doodles (backup a nivel navegador)
 google.com/doodles
 google.es/doodles
 google.com/logos
 sites.google.com/site/populardoodlegames
+
+
+# ========================================================
+# RECURSOS DESACTIVADOS / ACTIVABLES TEMPORALMENTE
+# ========================================================
+#
+# No deben formar parte de la whitelist permanente.
+# Se habilitan solo cuando una actividad concreta los necesite.
+#
+
+# ==========================================
+# PROGRAMACIÓN EDUCATIVA
+# ==========================================
+# code.org
+# makecode.com
+# userpxt.io
+# edublocks.org
+
+# ==========================================
+# MATEMÁTICAS / CIENCIAS
+# ==========================================
+# geogebra.org
+# desmos.com
+# phet.colorado.edu
+
+# ==========================================
+# DISEÑO Y PRESENTACIONES
+# ==========================================
+# canva.com
+# genially.com
+
+# ==========================================
+# DISEÑO 3D / FABRICACIÓN
+# ==========================================
+# sketchup.com
+# trimble.com
+# autodesk.com
+# tinkercad.com
+# thingiverse.com
+# instructables.com
+
+# ==========================================
+# PROGRAMACIÓN / ELECTRÓNICA / MAKER
+# ==========================================
+# hackaday.com
+
+# ==========================================
+# ORGANIZACIÓN DE PROYECTOS
+# ==========================================
+# trello.com
+# atlassian.com
+
+# ==========================================
+# GAMIFICACIÓN
+# ==========================================
+# blooket.com
+
+# ==========================================
+# VIDEOJUEGOS / ARTE DIGITAL
+# ==========================================
+# libresprite.github.io
+# pixilart.com
+# unity.com
+
+# ==========================================
+# NAVEGACIÓN / INSPIRACIÓN / CONTENIDO ABIERTO
+# ==========================================
+# pinterest.com
+# kickstarter.com
+# xataka.com
+
+# ==========================================
+# OTROS RECURSOS ACTIVABLES
+# ==========================================
+# educacionplastica.net
+
+
+# ========================================================
+# DOMINIOS GENÉRICOS RETIRADOS DE LA WHITELIST
+# ========================================================
+#
+# Estos dominios pueden alojar o distribuir contenido arbitrario
+# de terceros y conviene no permitirlos globalmente.
+#
+# Añadir únicamente FQDN concretos cuando una aplicación autorizada
+# demuestre necesitarlos.
+#
+# netlify.com
+# cloudflare.com
+# akamaihd.net
+# akamaized.net
+# cloudfront.net
+# amazonaws.com
+# googletagmanager.com
