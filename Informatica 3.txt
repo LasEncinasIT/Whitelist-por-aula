@@ -17,9 +17,10 @@
 ## WHITELIST
 
 duckduckgo.com
+buildcores.com
 
 # ==========================================
-# EXAMEN DAM2
+# EXAMEN DAM
 # ==========================================
 gradle.org
 apache.org
