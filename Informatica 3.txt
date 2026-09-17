@@ -20,6 +20,27 @@ duckduckgo.com
 buildcores.com
 
 # ==========================================
+# CHATGPT / OPENAI
+# ==========================================
+chatgpt.com
+openai.com
+oaistatic.com
+oaiusercontent.com
+challenges.cloudflare.com
+
+# ==========================================
+# GOOGLE WORKSPACE / DRIVE Y OFIMÁTICA
+# ==========================================
+drive.google.com
+docs.google.com
+sheets.google.com
+slides.google.com
+forms.google.com
+accounts.google.com
+apis.google.com
+googleusercontent.com
+
+# ==========================================
 # EXAMEN DAM
 # ==========================================
 gradle.org
