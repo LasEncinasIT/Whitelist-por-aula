@@ -38,9 +38,21 @@ slides.google.com
 forms.google.com
 accounts.google.com
 apis.google.com
-googleusercontent.com
 myadcenter.google.com
 adstransparency.google.com
+
+# Llamadas RPC y APIs de Drive/Docs (OBLIGATORIO 'clients' en plural)
+clients6.google.com
+clients4.google.com
+clients2.google.com
+content.googleapis.com
+oauth2.googleapis.com
+
+# Almacenamiento y previsualización de archivos de Drive
+googleusercontent.com
+drive.usercontent.google.com
+drive-thirdparty.googleusercontent.com
+lh7-us.googleusercontent.com
 
 # ==========================================
 # EXAMEN DAM
@@ -83,7 +95,10 @@ chromewebstore.google.com
 # ==========================================
 withgoogle.com
 gstatic.com
+ssl.gstatic.com
+fonts.gstatic.com
 googleapis.com
+fonts.googleapis.com
 ggpht.com
 cdnjs.cloudflare.com
 githubassets.com
@@ -91,9 +106,7 @@ jsdelivr.com
 jsdelivr.net
 esm.sh
 tailwindcss.com
-client6.google.com
 play.google.com
-lh7-us.googleusercontent.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
@@ -200,7 +213,7 @@ coveryourtracks.eff.org
 ## BLOCKED-SUBDOMAINS
 
 # ==========================================
-# GOOGLE
+# GOOGLE (JUEGOS Y PORTALES UNBLOCKED)
 # ==========================================
 doodles.google.com
 doodles.google.es
@@ -216,7 +229,7 @@ file:/*
 *snake*
 
 # ==========================================
-# GOOGLE - CONTENIDO ESPECÍFICO
+# GOOGLE - CONTENIDO ESPECÍFICO / DOODLES INTERACTIVOS
 # ==========================================
 google.com/doodles
 google.es/doodles
