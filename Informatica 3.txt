@@ -39,6 +39,8 @@ forms.google.com
 accounts.google.com
 apis.google.com
 googleusercontent.com
+myadcenter.google.com
+adstransparency.google.com
 
 # ==========================================
 # EXAMEN DAM
@@ -68,6 +70,12 @@ symcd.com
 geotrust.com
 developer.mozilla.org
 web.dev
+
+# ==========================================
+# TIENDAS DE EXTENSIONES (COMPLEMENTOS DE PRIVACIDAD)
+# ==========================================
+addons.mozilla.org
+chromewebstore.google.com
 
 # ==========================================
 # CDN / DEPENDENCIAS TÉCNICAS
@@ -146,11 +154,14 @@ uned.es
 portal.uned.es
 
 # ==========================================
-# MEDIOS Y DIVULGACIÓN
+# MEDIOS Y DIVULGACIÓN (BANCO DE PRUEBAS DE RED)
 # ==========================================
 rtve.es
 nationalgeographic.com.es
 maldita.es
+elpais.com
+elmundo.es
+20minutos.es
 
 # ==========================================
 # UNIVERSIDADES PÚBLICAS DE MADRID
@@ -173,7 +184,7 @@ draw.io
 apple.com
 
 # ==========================================
-# RECURSOS DE CIBERSEGURIDAD
+# RECURSOS DE CIBERSEGURIDAD Y PRIVACIDAD
 # ==========================================
 incibe.es
 pantallasamigas.net
@@ -182,6 +193,8 @@ pegi.info
 bde.es
 ocu.org
 policia.es
+eff.org
+coveryourtracks.eff.org
 
 
 ## BLOCKED-SUBDOMAINS
