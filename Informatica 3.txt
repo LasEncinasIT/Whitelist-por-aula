@@ -20,6 +20,12 @@ duckduckgo.com
 buildcores.com
 
 # ==========================================
+# EDUCAMADRID - SSO GOOGLE WORKSPACE (ACS SAML)
+# ==========================================
+google.com/a/educa.madrid.org/acs
+www.google.com/a/educa.madrid.org/acs
+
+# ==========================================
 # CHATGPT / OPENAI
 # ==========================================
 chatgpt.com
