@@ -1,87 +1,61 @@
-# 
+# desactivado
 # ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
-# Formato v3.5 con secciones - MODO RESTRINGIDO
+# Formato v3.4 con secciones
 # ========================================================
 #
-# Criterio:
-# - Solo servicios necesarios de forma habitual.
-# - Herramientas didácticas específicas se activan temporalmente.
-# - Se evitan plataformas con contenido generado por usuarios,
-#   feeds, juegos, galerías, proyectos o navegación recreativa.
-# - Se reducen dominios de hosting/CDN genéricos cuando no son
-#   imprescindibles.
+# Formato:
+# - ## WHITELIST = dominios permitidos (DNS-level)
+# - ## BLOCKED-SUBDOMAINS = subdominios bloqueados (DNS-level)
+# - ## BLOCKED-PATHS = paths bloqueados en navegadores (pattern matching)
 #
 # ========================================================
 
 ## WHITELIST
+# Dominios permitidos a nivel DNS
+# dnsmasq resolverá automáticamente todos los subdominios
 
-duckduckgo.com
-buildcores.com
-
-# ==========================================
-# EDUCAMADRID - SSO GOOGLE WORKSPACE (ACS SAML)
-# ==========================================
-google.com/a/educa.madrid.org/acs
-www.google.com/a/educa.madrid.org/acs
-
-# ==========================================
-# CHATGPT / OPENAI
-# ==========================================
-chatgpt.com
-openai.com
-oaistatic.com
-oaiusercontent.com
-challenges.cloudflare.com
-
-# ==========================================
-# GOOGLE WORKSPACE / DRIVE Y OFIMÁTICA
-# ==========================================
-drive.google.com
-docs.google.com
-sheets.google.com
-slides.google.com
-forms.google.com
-accounts.google.com
-apis.google.com
-myadcenter.google.com
-adstransparency.google.com
-
-# Llamadas RPC y APIs de Drive/Docs (OBLIGATORIO 'clients' en plural)
-clients6.google.com
-clients4.google.com
-clients2.google.com
-content.googleapis.com
-oauth2.googleapis.com
-
-# Almacenamiento y previsualización de archivos de Drive
-googleusercontent.com
-drive.usercontent.google.com
-drive-thirdparty.googleusercontent.com
-lh7-us.googleusercontent.com
-
-# ==========================================
-# EXAMEN DAM
-# ==========================================
+# Examen DAM2
 gradle.org
 apache.org
 
 # ==========================================
-# SERVICIOS BÁSICOS
+# BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
+duckduckgo.com
+google.es
+google.dev
+google.com
+netlify.com
 anaconda.com
 urldefense.com
+openai.com
+
+# Chatbots e IA
+chatgpt.com
+aistudio.google.com
+anthropic.com
+notebooklm.google.com
+ai.studio
+
+# GitHub y servicios de desarrollo
+github.com
+api.github.com
 
 # ==========================================
-# VISUAL STUDIO CODE Y EXTENSIONES BÁSICAS
+# VISUAL STUDIO CODE Y COPILOT
 # ==========================================
+# Core y extensiones
 visualstudio.com
 vsassets.io
 vscode-cdn.net
 microsoft.com
 trafficmanager.net
-
-# Validación de certificados y documentación
+# Copilot y conectividad
+githubcopilot.com
+githubusercontent.com
+exp-tas.com
+# Validación de certificados
 digicert.com
 symcb.com
 symcd.com
@@ -90,35 +64,37 @@ developer.mozilla.org
 web.dev
 
 # ==========================================
-# TIENDAS DE EXTENSIONES (COMPLEMENTOS DE PRIVACIDAD)
-# ==========================================
-addons.mozilla.org
-chromewebstore.google.com
-
-# ==========================================
-# CDN / DEPENDENCIAS TÉCNICAS
-# Mantener solo los realmente necesarios
+# CDN COMUNES (para soporte universal)
 # ==========================================
 withgoogle.com
 gstatic.com
-ssl.gstatic.com
-fonts.gstatic.com
 googleapis.com
-fonts.googleapis.com
 ggpht.com
+cloudflare.com
 cdnjs.cloudflare.com
+akamaihd.net
+akamaized.net
+cloudfront.net
+amazonaws.com
+oaistatic.com
 githubassets.com
 jsdelivr.com
+usercontent.goog
 jsdelivr.net
 esm.sh
 tailwindcss.com
+googletagmanager.com
+oaiusercontent.com
+client6.google.com
+docs.google.com
 play.google.com
+lh7-us.googleusercontent.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
 # ==========================================
 nce.wedu.comunidad.madrid
-madrid.org
+max.educa.madrid.org
 educa.madrid.org
 
 # ==========================================
@@ -154,10 +130,16 @@ procomun.intef.es
 ubuntu.com
 
 # ==========================================
-# LENGUA Y REFERENCIA
+# INVESTIGACIÓN Y RECURSOS ACADÉMICOS
 # ==========================================
+wikipedia.org
+wikimedia.org
+scholar.google.es
+scholar.google.com
 rae.es
 wordreference.com
+translate.google.com
+translate.google.es
 
 # ==========================================
 # BIBLIOTECAS Y RECURSOS ACADÉMICOS
@@ -165,22 +147,61 @@ wordreference.com
 bne.es
 catalogo.bne.es
 gutenberg.org
+books.google.es
+books.google.com
 
 # ==========================================
-# EDUCACIÓN SUPERIOR
+# EDUCACIÓN ONLINE Y MOOCS
 # ==========================================
+khanacademy.org
+coursera.org
+edx.org
 uned.es
 portal.uned.es
 
 # ==========================================
-# MEDIOS Y DIVULGACIÓN (BANCO DE PRUEBAS DE RED)
+# RECURSOS EDUCATIVOS ESPECÍFICOS
+# ==========================================
+# Matemáticas
+geogebra.org
+desmos.com
+
+# Ciencias
+phet.colorado.edu
+
+# Programación y tecnología
+code.org
+userpxt.io
+ping.img
+
+# ==========================================
+# MEDIOS EDUCATIVOS Y DIVULGATIVOS
 # ==========================================
 rtve.es
 nationalgeographic.com.es
 maldita.es
-elpais.com
-elmundo.es
-20minutos.es
+
+# ==========================================
+# HERRAMIENTAS DE PRODUCTIVIDAD
+# ==========================================
+# Google Workspace
+drive.google.com
+docs.google.com
+sheets.google.com
+slides.google.com
+classroom.google.com
+accounts.google.com
+mail-attachment.googleusercontent.com
+lh7-rt.googleusercontent.com
+
+# Microsoft Office Online
+office.com
+outlook.office.com
+onedrive.live.com
+
+# Diseño y presentaciones
+canva.com
+genially.com
 
 # ==========================================
 # UNIVERSIDADES PÚBLICAS DE MADRID
@@ -193,40 +214,67 @@ urjc.es
 uah.es
 
 # ==========================================
-# PETICIONES ESPECÍFICAS DE PROFESOR
-# Mantener solo mientras sean necesarias
+# PETICIONES DE PROFESOR - Bruno
 # ==========================================
+# appinventor.mit.edu
+sketchup.com
+trimble.com
+mycompiler.io
 un.org
 public.atl-pass.net
 diagrams.net
-draw.io
+vscode.dev
+blooket.com
 apple.com
 
-# ==========================================
-# RECURSOS DE CIBERSEGURIDAD Y PRIVACIDAD
-# ==========================================
+# La ingeniería en tus manos
+trello.com
+atlassian.com
+autodesk.com
+tinkercad.com
+draw.io
+diagrams.net
+instructables.com
+thingiverse.com
+hackaday.com
+educacionplastica.net
+
+# Exploración ciberseguridad 4º ESO
 incibe.es
 pantallasamigas.net
+xataka.com
 aepd.es
 pegi.info
 bde.es
 ocu.org
 policia.es
-eff.org
-coveryourtracks.eff.org
 
+#programación
+edublocks.org
+
+#vídeos
+youtube.com
+
+# Videojuegos
+libresprite.github.io
+pixilart.com
+kickstarter.com
+unity.com
+pinterest.com
 
 ## BLOCKED-SUBDOMAINS
+# Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
+# Útil para bloquear contenido específico incluso si dominio padre está permitido
 
-# ==========================================
-# GOOGLE (JUEGOS Y PORTALES UNBLOCKED)
-# ==========================================
+# Google Doodles (juegos interactivos)
 doodles.google.com
 doodles.google.es
 sites.google.com
 
-
 ## BLOCKED-PATHS
+# Paths bloqueados en navegadores (Firefox + Chromium)
+# Soporta pattern matching con wildcards (*)
+# NO afecta curl, wget, apps - solo navegadores
 
 google.com/search*
 google.com/fbx*
@@ -235,103 +283,11 @@ file:/*
 *snake*
 
 # ==========================================
-# GOOGLE - CONTENIDO ESPECÍFICO / DOODLES INTERACTIVOS
+# GOOGLE - CONTENIDO ESPECÍFICO
 # ==========================================
+
+# Google Doodles (backup a nivel navegador)
 google.com/doodles
 google.es/doodles
 google.com/logos
 sites.google.com/site/populardoodlegames
-
-
-# ========================================================
-# RECURSOS DESACTIVADOS / ACTIVABLES TEMPORALMENTE
-# ========================================================
-#
-# No deben formar parte de la whitelist permanente.
-# Se habilitan solo cuando una actividad concreta los necesite.
-#
-
-# ==========================================
-# PROGRAMACIÓN EDUCATIVA
-# ==========================================
-# code.org
-# makecode.com
-# userpxt.io
-# edublocks.org
-
-# ==========================================
-# MATEMÁTICAS / CIENCIAS
-# ==========================================
-# geogebra.org
-# desmos.com
-# phet.colorado.edu
-
-# ==========================================
-# DISEÑO Y PRESENTACIONES
-# ==========================================
-# canva.com
-# genially.com
-
-# ==========================================
-# DISEÑO 3D / FABRICACIÓN
-# ==========================================
-# sketchup.com
-# trimble.com
-# autodesk.com
-# tinkercad.com
-# thingiverse.com
-# instructables.com
-
-# ==========================================
-# PROGRAMACIÓN / ELECTRÓNICA / MAKER
-# ==========================================
-# hackaday.com
-
-# ==========================================
-# ORGANIZACIÓN DE PROYECTOS
-# ==========================================
-# trello.com
-# atlassian.com
-
-# ==========================================
-# GAMIFICACIÓN
-# ==========================================
-# blooket.com
-
-# ==========================================
-# VIDEOJUEGOS / ARTE DIGITAL
-# ==========================================
-# libresprite.github.io
-# pixilart.com
-# unity.com
-
-# ==========================================
-# NAVEGACIÓN / INSPIRACIÓN / CONTENIDO ABIERTO
-# ==========================================
-# pinterest.com
-# kickstarter.com
-# xataka.com
-
-# ==========================================
-# OTROS RECURSOS ACTIVABLES
-# ==========================================
-# educacionplastica.net
-
-
-# ========================================================
-# DOMINIOS GENÉRICOS RETIRADOS DE LA WHITELIST
-# ========================================================
-#
-# Estos dominios pueden alojar o distribuir contenido arbitrario
-# de terceros y conviene no permitirlos globalmente.
-#
-# Añadir únicamente FQDN concretos cuando una aplicación autorizada
-# demuestre necesitarlos.
-#
-# netlify.com
-# cloudflare.com
-# akamaihd.net
-# akamaized.net
-# cloudfront.net
-# amazonaws.com
-# googletagmanager.com
