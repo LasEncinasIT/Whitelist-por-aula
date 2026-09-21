@@ -69,6 +69,28 @@
     chromewebstore.google.com
     clients2.google.com
     addons.mozilla.org
+
+        # El País (PRISA)
+    elpais.com
+    www.elpais.com
+    epimg.net
+    prisa.com
+    prisacdn.com
+    arcpublishing.com
+
+    # El Mundo y Marca (Unidad Editorial)
+    elmundo.es
+    www.elmundo.es
+    marca.com
+    www.marca.com
+    uecdn.es
+    unidadeditorial.es
+
+    # 20 Minutos (Henneo)
+    20minutos.es
+    www.20minutos.es
+    20m.es
+    henneo.com
 # Hasta aquí
 
 # Examen DAM2
