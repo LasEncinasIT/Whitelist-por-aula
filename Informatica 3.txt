@@ -15,6 +15,62 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
+
+# Borrar desde aquí
+    # Práctica EFF y cuentas
+    coveryourtracks.eff.org
+    eff.org
+    myadcenter.google.com
+    accounts.google.com
+    google.com
+    
+    # Vídeos (YouTube)
+    youtube-nocookie.com
+    youtube.com
+    googlevideo.com
+    ytimg.com
+    
+    # Plataformas de consentimiento (CMP)
+    didomi.io
+    consent-api.didomi.io
+    onetrust.com
+    cookielaw.org
+    consensu.org
+
+    # Medios sugeridos (20 Minutos y El País)
+    20minutos.es
+    20m.es
+    elpais.com
+    prisa.com
+    arcpublishing.com
+
+    # Redes de rastreo, publicidad y analítica
+    doubleclick.net
+    googletagmanager.com
+    google-analytics.com
+    googlesyndication.com
+    adservice.google.com
+    criteo.com
+    criteo.net
+    taboola.com
+    outbrain.com
+    amazon-adsystem.com
+    adnxs.com
+    rubiconproject.com
+    openx.net
+    pubmatic.com
+    casalemedia.com
+    smartadserver.com
+    scorecardresearch.com
+    chartbeat.com
+    teads.tv
+
+    # Tiendas de extensiones (para uBlock Origin)
+    chromewebstore.google.com
+    clients2.google.com
+    addons.mozilla.org
+# Hasta aquí
+
 # Examen DAM2
 gradle.org
 apache.org
