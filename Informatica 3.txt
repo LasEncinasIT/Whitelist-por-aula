@@ -22,6 +22,7 @@ coveryourtracks.eff.org
 eff.org
 myadcenter.google.com
 accounts.google.com
+firstpartysimulator.net
     
 # Vídeos (YouTube)
 youtube-nocookie.com
