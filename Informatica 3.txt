@@ -15,6 +15,7 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
+buildcores.com
 
 # Borrar desde aquí
 # Práctica EFF y cuentas
