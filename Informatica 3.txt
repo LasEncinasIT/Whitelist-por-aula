@@ -275,6 +275,7 @@ maps.google.com
 
 google.com/search*
 google.com/fbx*
+google.com/maps*
 2048
 file:/*
 *snake*
