@@ -55,7 +55,6 @@ microsoft.com
 trafficmanager.net
 # Copilot y conectividad
 githubcopilot.com
-githubusercontent.com
 exp-tas.com
 # Validación de certificados
 digicert.com
@@ -172,7 +171,6 @@ desmos.com
 phet.colorado.edu
 
 # Programación y tecnología
-code.org
 userpxt.io
 ping.img
 
@@ -254,14 +252,10 @@ policia.es
 #programación
 edublocks.org
 
-#vídeos
-youtube.com
-
 # Videojuegos
 libresprite.github.io
 pixilart.com
 kickstarter.com
-unity.com
 pinterest.com
 
 ## BLOCKED-SUBDOMAINS
