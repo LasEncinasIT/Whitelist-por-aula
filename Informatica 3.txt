@@ -34,7 +34,7 @@ urldefense.com
 openai.com
 
 # Chatbots e IA
-chatgpt.com
+# chatgpt.com
 # aistudio.google.com
 # anthropic.com
 # notebooklm.google.com
