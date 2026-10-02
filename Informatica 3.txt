@@ -266,6 +266,7 @@ pinterest.com
 doodles.google.com
 doodles.google.es
 sites.google.com
+maps.google.com
 
 ## BLOCKED-PATHS
 # Paths bloqueados en navegadores (Firefox + Chromium)
