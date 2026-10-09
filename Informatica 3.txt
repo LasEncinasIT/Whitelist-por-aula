@@ -20,6 +20,7 @@ buildcores.com
 skyscanner.es
 skyscnr.com
 booking.com
+bstatic.com
 
 # Examen DAM2
 gradle.org
