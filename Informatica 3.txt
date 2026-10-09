@@ -17,6 +17,8 @@
 
 buildcores.com
 
+skyscanner.es
+
 # Examen DAM2
 gradle.org
 apache.org
