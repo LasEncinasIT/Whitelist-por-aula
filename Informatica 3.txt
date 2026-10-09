@@ -18,6 +18,7 @@
 buildcores.com
 
 skyscanner.es
+skyscnr.com
 
 # Examen DAM2
 gradle.org
