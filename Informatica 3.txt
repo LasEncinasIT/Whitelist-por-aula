@@ -95,6 +95,7 @@ client6.google.com
 docs.google.com
 play.google.com
 lh7-us.googleusercontent.com
+doc-0c-7c-docstext.googleusercontent.com
 
 # ==========================================
 # EDUCACIÓN MADRID - WEDU
