@@ -49,6 +49,10 @@ openai.com
 github.com
 api.github.com
 
+# Spoty
+spotify.com
+scdn.co
+
 # ==========================================
 # VISUAL STUDIO CODE Y COPILOT
 # ==========================================
