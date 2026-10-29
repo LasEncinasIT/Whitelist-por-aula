@@ -16,6 +16,11 @@
 # dnsmasq resolverá automáticamente todos los subdominios
 
 buildcores.com
+notebook.google.com
+gstatic.com
+signaler-pa.clients6.google.com
+play.google.com
+accounts.google.com
 
 skyscanner.es
 skyscnr.com
