@@ -44,11 +44,12 @@ urldefense.com
 openai.com
 
 # Chatbots e IA
-# chatgpt.com
-# aistudio.google.com
-# anthropic.com
-# notebooklm.google.com
-# ai.studio
+chatgpt.com
+aistudio.google.com
+anthropic.com
+notebooklm.google.com
+ai.studio
+gemini.google.com
 
 # GitHub y servicios de desarrollo
 github.com
