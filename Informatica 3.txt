@@ -1,4 +1,4 @@
-#  
+# desactivado
 # ========================================================
 # WHITELIST DE URLs PARA ESTUDIANTES - COMUNIDAD DE MADRID
 # Formato v3.4 con secciones
@@ -19,7 +19,7 @@
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
-# duckduckgo.com
+duckduckgo.com
 google.es
 google.dev
 google.com
