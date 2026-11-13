@@ -19,7 +19,7 @@
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
 # ==========================================
-duckduckgo.com
+# duckduckgo.com
 google.es
 google.dev
 google.com
