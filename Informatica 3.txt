@@ -15,21 +15,6 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
-buildcores.com
-notebook.google.com
-gstatic.com
-signaler-pa.clients6.google.com
-play.google.com
-accounts.google.com
-
-skyscanner.es
-skyscnr.com
-booking.com
-bstatic.com
-
-# Examen DAM2
-gradle.org
-apache.org
 
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
@@ -38,26 +23,23 @@ duckduckgo.com
 google.es
 google.dev
 google.com
-netlify.com
-anaconda.com
-urldefense.com
-openai.com
+#openai.com
 
 # Chatbots e IA
-chatgpt.com
-aistudio.google.com
-anthropic.com
-notebooklm.google.com
-ai.studio
-gemini.google.com
+# chatgpt.com
+# aistudio.google.com
+# anthropic.com
+# notebooklm.google.com
+# ai.studio
+# gemini.google.com
 
 # GitHub y servicios de desarrollo
 github.com
 api.github.com
 
 # Spoty
-spotify.com
-scdn.co
+#spotify.com
+#scdn.co
 
 # ==========================================
 # VISUAL STUDIO CODE Y COPILOT
@@ -241,19 +223,6 @@ public.atl-pass.net
 diagrams.net
 vscode.dev
 blooket.com
-apple.com
-
-# La ingeniería en tus manos
-trello.com
-atlassian.com
-autodesk.com
-tinkercad.com
-draw.io
-diagrams.net
-instructables.com
-thingiverse.com
-hackaday.com
-educacionplastica.net
 
 # Exploración ciberseguridad 4º ESO
 incibe.es
@@ -269,10 +238,10 @@ policia.es
 edublocks.org
 
 # Videojuegos
-libresprite.github.io
-pixilart.com
-kickstarter.com
-pinterest.com
+# libresprite.github.io
+# pixilart.com
+# kickstarter.com
+# pinterest.com
 
 ## BLOCKED-SUBDOMAINS
 # Subdominios bloqueados a nivel DNS (dnsmasq retorna NXDOMAIN)
