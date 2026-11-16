@@ -15,6 +15,7 @@
 # Dominios permitidos a nivel DNS
 # dnsmasq resolverá automáticamente todos los subdominios
 
+peterhigginson.co.uk
 
 # ==========================================
 # BÚSQUEDA Y SERVICIOS BÁSICOS
